@@ -1,0 +1,11 @@
+diff --git a/node_modules/react-native-admob/android/build.gradle b/node_modules/react-native-admob/android/build.gradle
+index 0b89985..3224eb7 100644
+--- a/node_modules/react-native-admob/android/build.gradle
++++ b/node_modules/react-native-admob/android/build.gradle
+@@ -22,5 +22,5 @@ android {
+ 
+ dependencies {
+     implementation 'com.facebook.react:react-native:+'
+-    implementation 'com.google.android.gms:play-services-ads:+'
++    implementation 'com.google.android.gms:play-services-ads:19.6.0'
+ }
